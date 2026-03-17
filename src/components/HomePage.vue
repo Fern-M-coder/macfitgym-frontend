@@ -5,7 +5,11 @@
 <template>
     <v-container max-width="100%">
         <v-row>
-            <v-img  src="pumping muscles.jpg"></v-img> 
+            <v-col>
+                <v-card image="pumping muscles.jpg" max-width="100%" height="500px" cover>
+                    <v-card-text class="text-display-small font-weight-light mb-8" color="white">Time to get your best build</v-card-text>
+                </v-card>
+            </v-col>
         </v-row>
     </v-container>
 
@@ -13,28 +17,28 @@
         <v-row>
             <v-col md="3">
                  <v-card>
-                    <v-img src="dumbbell.jpg" cover></v-img>
+                    <v-img src="dumbbell.jpg" height="250px" cover></v-img>
                     <v-card-title>Dumbbell lifting</v-card-title>
                     <v-card-text>3 sets, 5 minutes</v-card-text>
                  </v-card>
             </v-col>
             <v-col md="3">
                 <v-card>
-                    <v-img src="weight lifting.jpg" height="" cover></v-img>
+                    <v-img src="weight lifting.jpg" height="250px" cover></v-img>
                     <v-card-title>Weight lifting</v-card-title>
                     <v-card-text>4 sets,3 minutes</v-card-text>
                  </v-card>
             </v-col>
             <v-col md="3">
                   <v-card>
-                    <v-img src="abs.jpg" height="" cover></v-img>
+                    <v-img src="abs.jpg" height="250px" cover></v-img>
                     <v-card-title>Abs fitness</v-card-title>
                     <v-card-text>2 sets, 3 minutes</v-card-text>
                  </v-card>
             </v-col>
             <v-col md="3">
                  <v-card>
-                    <v-img src="rope training.jpg" height="" cover></v-img>
+                    <v-img src="rope training.jpg" height="250px" cover></v-img>
                     <v-card-title>Ropes lifting</v-card-title>
                     <v-card-text>5 sets,3 minutes</v-card-text>
                  </v-card>
@@ -48,7 +52,7 @@
                 <v-img src="equipment.jpg"></v-img>
             </v-col>
 
-             <v-col md="8" class="ma-0">
+             <v-col md="8" class="ma-0" max-width="100%">
                  <div class="text-title-large mb-12">Best Equipment and fitness trainers</div>
                 <div class="text-body-large font-weight-light text-medium-emphasis mb-8">Gym is very important to any human as it helps us keep fit all time.</div>
                  <v-list>
@@ -130,9 +134,9 @@
             <div class="text-title-medium font-weight-medium">Believe in yourself, be fit and healthier</div>
         </v-row>
 
-        <v-row>
+        <v-row class="ma-0">
             <v-col md="3">
-                <v-img src="lt1.jpg"></v-img>
+                <v-img src="lt1.jpg" ></v-img>
             </v-col>
 
              <v-col md="3">
@@ -140,84 +144,81 @@
             </v-col>
 
              <v-col md="3">
-                <v-img src=".jpg"></v-img>
+                <v-img src="gallery.jpg"></v-img>
             </v-col>
 
              <v-col md="3">
-                <v-img src=".jpg"></v-img>
+                <v-img src="gallery2.jpg"></v-img>
             </v-col>
         </v-row>
 
         <v-row>
-            <v-btn></v-btn>
+            <v-btn color="#A6AD1E">View all</v-btn>
         </v-row>
     </v-container>
 
     <v-container>
         <v-row>
-            <div> </div>
+            <div  class="text-display-medium font-weight-medium #A6AD1E--text" >Personal instructors </div>
         </v-row>
 
          <v-row>
-            <div> </div>
+            <div class="text-title-medium font-weight-medium">Get the best gym classes from our best instructors </div>
         </v-row>
 
         <v-row>
-            <v-col md="3">
+            <v-col md="4">
                 <v-card>
-                    <v-img height="" src="" cover></v-img>
-                    <v-card-title></v-card-title>
-                    <v-card-text></v-card-text>
+                    <v-img height="300px" src="John Fornander.jpg" cover></v-img>
+                    <v-card-title>John Fornander</v-card-title>
+                    <v-card-text>Body building trainer</v-card-text>
+
+                     <v-divider></v-divider>
+
                    <v-card-actions>
                     <v-spacer></v-spacer>
-                     <v-btn color="" icon="" size=""></v-btn>
-                     <v-btn color="" icon="" size=""></v-btn>
-                      <v-btn color="" icon="" size=""></v-btn>
+                     <v-btn color="#A6AD1E" icon="mdi-instagram" size="small" ></v-btn>
+                     <v-btn color="#A6AD1E" icon="mdi-phone" size="small"></v-btn>
+                      <v-btn color="#A6AD1E" icon="mdi-facebook" size="small"></v-btn>
                    </v-card-actions>
                 </v-card>
             </v-col>
 
-            <v-col md="3">
+            <v-col md="4" >
                 <v-card>
-                    <v-img height="" src="" cover></v-img>
-                    <v-card-title></v-card-title>
-                    <v-card-text></v-card-text>
+                    <v-img height="300px" src="Julia Rekamie.jpg" cover></v-img>
+                    <v-card-title>Julia Rekamie</v-card-title>
+                    <v-card-text>Fitness trainer</v-card-text>
+
+                    <v-divider></v-divider>
+
                    <v-card-actions>
                     <v-spacer></v-spacer>
-                     <v-btn color="" icon="" size=""></v-btn>
-                     <v-btn color="" icon="" size=""></v-btn>
-                      <v-btn color="" icon="" size=""></v-btn>
+                     <v-btn color="#A6AD1E" icon="mdi-instagram" size="small"></v-btn>
+                     <v-btn color="#A6AD1E" icon="mdi-phone" size="small"></v-btn>
+                      <v-btn color="#A6AD1E" icon="mdi-facebook" size="small"></v-btn>
                    </v-card-actions>
                 </v-card>
             </v-col>
 
-             <v-col md="3">
+             <v-col md="4">
                 <v-card>
-                    <v-img height="" src="" cover></v-img>
-                    <v-card-title></v-card-title>
-                    <v-card-text></v-card-text>
+                    <v-img height="300px" src="Mina Rad.jpg" cover></v-img>
+                    <v-card-title>Mina Rad</v-card-title>
+                    <v-card-text>Crossfit trainer</v-card-text>
+
+                    <v-divider></v-divider>
+
                    <v-card-actions>
                     <v-spacer></v-spacer>
-                     <v-btn color="" icon="" size=""></v-btn>
-                     <v-btn color="" icon="" size=""></v-btn>
-                      <v-btn color="" icon="" size=""></v-btn>
+                     <v-btn color="#A6AD1E" icon="mdi-instagram" size="small"></v-btn>
+                     <v-btn color="#A6AD1E" icon="mdi-phone" size="small"></v-btn>
+                      <v-btn color="#A6AD1E" icon="mdi-facebook" size="small"></v-btn>
                    </v-card-actions>
                 </v-card>
             </v-col>
 
-             <v-col md="3">
-                <v-card>
-                    <v-img height="" src="" cover></v-img>
-                    <v-card-title></v-card-title>
-                    <v-card-text></v-card-text>
-                   <v-card-actions>
-                    <v-spacer></v-spacer>
-                     <v-btn color="" icon="" size=""></v-btn>
-                     <v-btn color="" icon="" size=""></v-btn>
-                      <v-btn color="" icon="" size=""></v-btn>
-                   </v-card-actions>
-                </v-card>
-            </v-col>
+            
         </v-row>
     </v-container>
 
